@@ -1,0 +1,29 @@
+# --- Ignore system and environment files ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.swo
+.DS_Store
+.env
+.venv/
+.env*/
+.ipynb_checkpoints/
+*.sqlite3
+
+# --- Ignore Jupyter autosave checkpoints ---
+*/.ipynb_checkpoints/*
+
+# --- Ignore data or large files (optional) ---
+data/
+*.csv
+*.xlsx
+*.zip
+
+# --- Ignore downloaded notebooks ---
+lectures_notebooks/
+
+# --- Ignore any local configuration or IDE stuff ---
+.vscode/
+.idea/
